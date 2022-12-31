@@ -1,0 +1,4 @@
+<% @products.each do |product| %>
+  <%= product.name %> <%= product.price %>
+  <%= button_to "add to cart", line_items_path %>
+<% end %>
